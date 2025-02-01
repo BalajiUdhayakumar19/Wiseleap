@@ -14,7 +14,7 @@ This project automates the process of scheduling a live session on the Wise app 
 # Install cucumber
     - npm install @cucumber/cucumber
 
-# Clone the gitlab repo
+# Clone the gitHub repo
     - https://github.com/BalajiUdhayakumar19/Wiseleap.git
 
 # Project setup
