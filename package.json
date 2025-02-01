@@ -1,0 +1,25 @@
+{
+  "name": "wiseleap",
+  "version": "1.0.0",
+  "description": "Automation script for wise live app",
+  "main": "index.js",
+  "scripts": {
+      "test:login": "cucumber-js --format json:./reports/cucumber-json-report.json --tags @login",
+      "test:htmlReport": "node htmlreport.js" 
+     },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalajiUdhayakumar19/Wiseleap.git"
+  },
+  "author": "Balaji Udhayakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BalajiUdhayakumar19/Wiseleap/issues"
+  },
+  "homepage": "https://github.com/BalajiUdhayakumar19/Wiseleap#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "assert": "^2.1.0",
+    "selenium-webdriver": "^4.28.1"
+  }
+}
