@@ -4,19 +4,38 @@
     "elements": [
       {
         "description": "",
-        "id": "tutor-login-with-mobile-number-in-wise-app-and-schedule-a-live-session;1-successful-login-as-a-tutor-using-mobile-number-and-otp",
+        "id": "tutor-login-with-mobile-number-in-wise-app-and-schedule-a-live-session;1-common---successful-login-as-a-tutor-using-mobile-number-and-otp",
         "keyword": "Scenario",
         "line": 4,
-        "name": "1 Successful login as a tutor using mobile number and OTP",
+        "name": "1 common - Successful login as a tutor using mobile number and OTP",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4413143799
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 814200
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
             "name": "user is on the Wise app login page",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:9"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 545461600
             }
           },
           {
@@ -24,9 +43,12 @@
             "keyword": "When ",
             "line": 6,
             "name": "user selects Login with Mobile number method",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:15"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 209800
             }
           },
           {
@@ -34,19 +56,33 @@
             "keyword": "And ",
             "line": 7,
             "name": "user adds mobile number and otp",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:21"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 2441944000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "user validates the dashboard page of wise app",
+            "name": "user validates the home page of wise app",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:28"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 2031109099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 414000
             }
           }
         ],
@@ -70,13 +106,24 @@
         "name": "2 user should Navigate to course page",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1505600
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 12,
-            "name": "user is on the Wise app dashboard page",
+            "name": "user is on the Wise app home page",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:36"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 417699
             }
           },
           {
@@ -84,9 +131,12 @@
             "keyword": "When ",
             "line": 13,
             "name": "user selects group courses from side menu",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:41"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 670112399
             }
           },
           {
@@ -94,9 +144,12 @@
             "keyword": "And ",
             "line": 14,
             "name": "user clicks the classroom for automated testing course",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:47"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 619435599
             }
           },
           {
@@ -104,9 +157,20 @@
             "keyword": "Then ",
             "line": 15,
             "name": "user should be naviagte to the selected course",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:53"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 34001199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 133100
             }
           }
         ],
@@ -126,13 +190,24 @@
         "name": "3 User Schedule a live sesion",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 816100
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 19,
             "name": "user is on the course page",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:61"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 246800
             }
           },
           {
@@ -140,9 +215,12 @@
             "keyword": "When ",
             "line": 20,
             "name": "user navigates to Live session Tab",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:67"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 183368400
             }
           },
           {
@@ -150,9 +228,12 @@
             "keyword": "And ",
             "line": 21,
             "name": "user clicks the schedule session button",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:73"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 6151407700
             }
           },
           {
@@ -160,9 +241,12 @@
             "keyword": "And ",
             "line": 22,
             "name": "user clicks create button",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:79"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 16586852400
             }
           },
           {
@@ -170,9 +254,28 @@
             "keyword": "Then ",
             "line": 23,
             "name": "the user validates that the session is successfully created",
+            "match": {
+              "location": "features\\step_definition\\step_login.js:87"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 10810657200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1831600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 109300
             }
           }
         ],

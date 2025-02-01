@@ -26,6 +26,9 @@ This project automates the process of scheduling a live session on the Wise app 
     - npm run test:test_script_name
     - test_script_name -> refer package.json file.
 
+3. To Generate Html Report 
+    - npm run test:htmlReport 
+
 # Folders and files details.
 1. feature groups folder - contains '.feature' files which will have test cases.
 

@@ -5,11 +5,11 @@ Scenario:1 common - Successful login as a tutor using mobile number and OTP
 Given user is on the Wise app login page
 When user selects Login with Mobile number method 
 And user adds mobile number and otp
-Then user validates the dashboard page of wise app
+Then user validates the home page of wise app
 
 @login 
 Scenario:2 user should Navigate to course page  
-Given user is on the Wise app dashboard page
+Given user is on the Wise app home page
 When user selects group courses from side menu
 And user clicks the classroom for automated testing course 
 Then user should be naviagte to the selected course
